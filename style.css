@@ -1,0 +1,72 @@
+body{
+	background-color: #ECECEC
+}
+.preone{
+	height: 100px;
+	width: 100%;
+	font-size: 25px;
+	background-color: #74541D;
+	text-align: center;
+	margin: 10px;
+    padding:20px;
+	font-family: 'Acme', sans-serif;
+}
+.one{
+	height: 300px;
+	width: 200px;
+	background-color: #13E7E7;
+	margin: 10px;
+    padding:20px;
+	font-family: 'Acme', sans-serif;
+	font-size: 40px;
+}
+.two {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: #9F7329;
+    animation-name: mymove;
+    animation-duration: 7s;
+    animation-iteration-count: 20;
+    animation-direction: alternate; 
+    animation-timing-function:linear;
+
+}
+@keyframes mymove{
+    from {left: 0px;}
+    to {left: 100%;}
+}
+.three{
+	width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: #9F7329;
+    animation-name: mymovee;
+    animation-duration: 7s;
+    animation-iteration-count: 20;
+    animation-direction: alternate; 
+    animation-timing-function:linear;
+}
+@keyframes mymovee{
+    from {left: 0px;}
+    to {left: 100%;}
+}
+.column {
+	display: inline-block;
+    width: 24%;
+    padding: 0px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.four{
+	height: 300px;
+	width: 200px;	
+	background-color: #13E7E7;
+	font-size: 33px;
+	font-family: "Rokkitt", serif;
+	font-weight: 400;
+	text-align: center;
+}
